@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:gravity="center"
+    android:padding="24dp">
+
+    <TextView android:id="@+id/pointsText"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="0 points" android:textSize="40sp" android:textStyle="bold" />
+
+    <TextView android:id="@+id/statusText"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" android:text="Loading..." />
+
+    <Button android:id="@+id/watchButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="32dp" android:enabled="false"
+        android:text="Watch ad to earn" />
+
+    <Button android:id="@+id/withdrawButton"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" android:text="Request payout" />
+</LinearLayout>
